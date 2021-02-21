@@ -1,0 +1,29 @@
+---
+layout: login
+---
+
+<div class="login-page">
+
+    <div class="form">
+
+      <form class="register-form display__none">
+        <h1 class="title">Регистрация</h1>
+        <input type="text" placeholder="Имя пользователя" class="name"/>
+        <input type="text" placeholder="Логин" class="login"/>
+        <input type="password" placeholder="Пароль" pattern="" class="password"/>
+        <button id="submitRegistration">Зарегистрироваться</button>
+        <p class="message authorizationButton"><a href="#">Авторизация</a></p>
+      </form>
+
+      <form class="login-form">
+        <h1 class="title">Авторизация</h1>
+        <input type="text" placeholder="Логин" class="login"/>
+        <input type="password" placeholder="Пароль" class="password"/>
+        <button id="submitAuthorization">Войти</button>
+        <p class="message registrationButton"><a href="#">Регистрация</a></p>
+      </form>
+
+    </div>
+    <div class="alerts display__none">
+    </div>
+</div>
